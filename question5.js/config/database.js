@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 
 
 //connect to mysql(xampp)
-const sequelize = new Sequelize('node_sequelize', 'root', '', {
+const sequelize = new Sequelize('mydb', 'root', '', {
     host: 'localhost',
     dialect: 'mysql'
 });
