@@ -18,5 +18,8 @@
   "description": "midterm",
   "keywords": [
     "maika"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
